@@ -1,0 +1,47 @@
+% Common packages
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage{vmargin}
+\usepackage{mathrsfs, mathenv}
+\usepackage{amsmath, amsthm, amssymb, amsfonts, amscd}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{citecolor=blue, colorlinks=true, linkcolor=black}
+\usepackage[capitalise]{cleveref}
+\usepackage{autonum}
+
+% bibliography
+\usepackage{bibentry}
+\nobibliography*
+
+% tables
+\usepackage{booktabs}
+
+% plots
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usetikzlibrary{patterns,arrows,decorations.pathmorphing,backgrounds,positioning,fit,matrix}
+\usepackage[labelfont=bf]{caption}
+\setlength{\belowcaptionskip}{-5pt}
+\usepackage{here}
+\usepackage[font=normal]{subcaption}
+
+% Prevent itemized lists from running into the left margin inside theorems and proofs
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=.5in}
+\setlist[enumerate]{leftmargin=.5in,topsep=3pt,itemsep=3pt,label=(\roman*)}
+
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\norm}[1]{\left\|#1\right\|}
+\renewcommand{\phi}{\varphi}
+\renewcommand{\theta}{\vartheta}
+\newcommand{\totext}[1]{\ensuremath{\stackrel{#1}{\to}}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\epl}{\varepsilon}
+\newcommand{\defeq}{\coloneqq}
+\newcommand{\eqdef}{\eqqcolon}
+\newcommand{\E}{\operatorname{\mathbb{E}}}
+\newcommand{\Hell}{d_{\mathrm{Hell}}}
+\renewcommand{\d}{\mathrm{d}}
+\newcommand{\dd}{\,\mathrm{d}}
