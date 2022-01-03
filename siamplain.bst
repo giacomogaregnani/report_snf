@@ -715,7 +715,6 @@ FUNCTION {incollection}
   if$
   format.chapter.pages output
   format.doi output
-  format.url output
   format.eprint output
   new.block
   note output
